@@ -1,5 +1,6 @@
 # Siril_script_tom
 このスクリプトは https://gitlab.com/free-astro/siril/-/tree/master/scripts?ref_type=heads にて開発されているスクリプトを元にtomが改良を加えたものです。</br>
+著作権は元スクリプト作者である Cyril Richard氏に帰属します。
 
 
 ・OSC_Prepocessing_Make_Master_Flat.ssf</br>
