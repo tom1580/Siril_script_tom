@@ -2,7 +2,6 @@
 #
 # OSC_Prepocessing_Make_Master_Flat.ssf
 #
-# Prepare Mater_Flat file from flat files and syntheic biases (=64*$OFFSET)
 # Script for Siril 1.2.0
 #
 ########### PREPROCESSING SCRIPT ###########
@@ -10,7 +9,6 @@
 # Copy flat files in your working folder:
 #   flats/
 #
-# Use synthetic biases as =64*$OFFSET
 # Output file : pp_flat_stacked.fit in /masters folder
 #
 ############################################
