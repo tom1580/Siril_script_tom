@@ -1,0 +1,29 @@
+############################################
+#
+# OSC_Prepocessing_Make_Master_Dark.ssf
+# Prepare Mater_Dark file from dark files
+# Script for Siril 1.2.0
+#
+########### PREPROCESSING SCRIPT ###########
+#
+# Copy flat files in your working folder:
+#   flats/
+#
+# Use synthetic biases as =64*$OFFSET
+# Output file : dark_stacked.fit in /masters folder
+#
+############################################
+
+requires 1.2.0
+
+# Convert Dark Frames to .fit files
+cd darks
+convert dark -out=../process
+cd ../process
+
+# Stack Dark Frames to dark_stacked.fit
+stack dark rej 3 3 -nonorm -out=../masters/dark_stacked
+cd ..
+
+
+close
